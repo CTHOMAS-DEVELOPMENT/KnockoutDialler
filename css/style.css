@@ -1,0 +1,64 @@
+div {
+	font-family: Helvetica, Verdana, Arial;
+}
+#time_display {
+	font-weight: normal;
+	font-size: 2.5vw;
+	padding-top:5vw;
+	padding-bottom:0vw;
+}
+.digit_row {
+	display: block;
+}
+.dial_timer_background {
+	background-color: #222E3C;
+	display: block;
+}
+.dial_display_background {
+	padding-top:1.0vw;
+	padding-bottom:5.0vw;
+	background-color: #222E3C;
+	font-weight: normal;
+	font-size: 5vw;
+}
+.dial_button {
+    min-width: 122px;
+    max-width: 122px;
+    min-height: 35px;
+    max-height: 35px;
+	margin: 2vw;
+}
+
+.dial_button_background {
+	background-color: #34495E;
+	padding-top: 2vh;
+	padding-bottom: 2vw;
+}
+.dial_button_shallow {
+	padding-bottom: 2vw;
+}
+.dial_button_deep {
+	padding-bottom: 35vw;
+}
+.dial_digit {
+    border: 0.2vw;
+	border-color: #495C6E;
+	background-color: #2A3A4B;
+    padding: 1.8vw 3vw 1.8vw 3vw ;
+	font-weight: normal;
+	font-size: 3.2vw;
+}
+.dial_digit_others {
+    border-style:solid none none solid;
+}
+.dial_digit_topright {
+	border-style:solid solid none solid;	
+}
+.dial_digit_bottomright {
+	border-style:solid;
+}
+.dial_digit_bottomleft {
+	border-style:solid none solid solid;	
+}
+#offcall_footer { display:block; }
+#oncall_footer { display:none; }
